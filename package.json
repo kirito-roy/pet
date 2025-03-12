@@ -29,5 +29,12 @@
     "predeploy": "wrangler --experimental-json-config d1 migrations apply pet --remote",
     "seedLocalD1": "wrangler --experimental-json-config d1 migrations apply pet --local",
     "types": "wrangler --experimental-json-config types"
+  },
+  "dependencies": {
+    "hono": "^4.7.4",
+    "jose": "^6.0.10",
+    "stream": "^0.0.3",
+    "swagger-ui-dist": "^5.20.1",
+    "util": "^0.12.5"
   }
 }
