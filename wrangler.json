@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2024-11-01",
+  "main": "src/index.ts",
+  "name": "pet",
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "6b7c1730-ab6b-4b65-a660-307b1719615e",
+      "database_name": "pet"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
